@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-typescript","@babel/preset-react", "@babel/env"]  
+}
+ 
+
+//o babel env foi para parar o bug na variável de ambiente
