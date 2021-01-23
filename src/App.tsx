@@ -1,12 +1,14 @@
-import React from 'react'
-import './App.css'
+import Main from 'components/Main/index'
+import React, { Fragment } from 'react'
+import GlobalStyles from './styles/global'
 
-type Props = {
-  title?: string
-}
-
-function App({ title = 'Stomper Incorporation' }: Props) {
-  return <h1>{title}</h1>
+function App() {
+  return (
+    <Fragment>
+      <Main />
+      <GlobalStyles />
+    </Fragment>
+  )
 }
 
 export default App
