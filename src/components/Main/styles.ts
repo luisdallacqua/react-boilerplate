@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { LIGHT_GRAY } from '../../constants'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: #030517;
+  color: ${LIGHT_GRAY};
   width: 100vw;
   height: 100vh;
   padding: 3rem;

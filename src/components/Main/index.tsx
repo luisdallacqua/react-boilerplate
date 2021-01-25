@@ -1,13 +1,9 @@
 import React from 'react'
 import * as S from './styles'
 
-const Main = ({
-  title = 'Stomper Incorporation',
-  description = 'We proudly presents to you Summoners Stomper'
-}) => (
+const Main = () => (
   <S.Wrapper>
-    <S.Title>{title}</S.Title>
-    <S.Description>{description}</S.Description>
+    <h1>stomper</h1>
   </S.Wrapper>
 )
 
