@@ -15,5 +15,5 @@ export default {
 export const Default: Story<HeadingProps> = (args) => <Heading {...args} />
 
 Default.args = {
-  children: 'Most Populars'
+  children: 'Summoners Stomper FAQ'
 }
