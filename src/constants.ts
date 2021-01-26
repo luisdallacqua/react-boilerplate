@@ -1,8 +1,0 @@
-export const PRIMARY = '#F231A5'
-export const SECONDARY = '#3CD3C1'
-export const MAIN_BG = '#06092B'
-export const WHITE_DEFAULT = '#FAFAFA'
-export const BLACK_DEFAULT = '#030517'
-export const LIGHT_GRAY = '#EAEAEA'
-export const GRAY_DEFAULT = '#8F8F8F'
-export const DRAK_GRAY = '#2E2F42'
